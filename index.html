@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Product page</title>
   </head>
@@ -144,47 +148,55 @@
       </div>
       <section class="pros-cons">
         <div class="container">
-          <div class="iphone-pro">
-            <h3>iPhone 15 Pro</h3>
-            <ul class="show">
-              <span>Pros:</span>
-              <div class="li-list">
-                <li>Powerful A17 Pro chip for excellent performance</li>
-                <li>High-quality build with titanium frame</li>
-                <li>Advanced camera system with ProRAW support</li>
-                <li>Seamless integration with Apple ecosystem</li>
-              </div>
-            </ul>
-            <ul class="show">
-              <span>Cons:</span>
-              <div class="li-list">
-                <li>Smaller battery compared to Galaxy S24 Ultra</li>
-                <li>Limited customization options</li>
-                <li>No expandable storage</li>
-              </div>
-            </ul>
-          </div>
-          <div class="iphone-pro">
-            <h3>iPhone 15 Pro</h3>
-            <ul class="show">
-              <span>Pros:</span>
-              <div class="li-list">
-                <li>Samsung Galaxy S24 Ultra</li>
-                <li>Impressive 200 MP main camera</li>
-                <li>Longer battery life</li>
-                <li>More customization options with Android</li>
-              </div>
-            </ul>
-            <ul class="show">
-              <span>Cons:</span>
-              <div class="li-list">
-                <li>Larger size may be less comfortable for some users</li>
-                <li>More complex user interface</li>
-                <li>Generally more expensive than iPhone 15 Pro</li>
-              </div>
-            </ul>
-          </div>
-        </div>
+			<table>
+				<tr>
+					<th ></th>
+					<th>
+						<picture>
+							<img class="product" src="./images/iphone15.webp" alt="" />
+						</picture>
+					</th>
+					<th>
+						<picture>
+							<img class="product" src="./images/samsung24.webp" alt="" />
+						</picture>
+					</th>
+				</tr>
+				<tr>
+					<th>Features</th>
+					<th>iPhone 15</th>
+					<th>Samsung Galaxy s24</th>
+				</tr>
+				<tr>
+					<td>Launch</td>
+					<td>2023, September 12</td>
+					<td>2024, January 17</i></td>
+				</tr>
+				<tr>
+					<td>Display</td>
+					<td>Super Retina XDR OLED, HDR10, Dolby Vision, 1000 nits (HBM), 2000 nits (peak)</td>
+					<td>Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)</i></td>
+				</tr>
+				<tr>
+					<td>Memory</td>
+					<td>128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM</td>
+					<td>128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 8GB RAM</td>
+				</tr>
+				<tr>
+					<td>Camera</td>
+					<td>48 MP, f/1.6, 26mm (wide), 1/1.56", 1.0µm, dual pixel PDAF, sensor-shift OIS
+						12 MP, f/2.4, 13mm, 120˚ (ultrawide), 0.7µm</td>
+					<td>50 MP, f/1.8, 24mm (wide), 1/1.56", 1.0µm, dual pixel PDAF, OIS
+						10 MP, f/2.4, 67mm (telephoto), 1/3.94", 1.0µm, PDAF, OIS, 3x optical zoom
+						12 MP, f/2.2, 13mm, 120˚ (ultrawide), 1/2.55" 1.4µm, Super Steady video</i></td>
+				</tr>
+				<tr>
+					<td>Loudspeaker</td>
+					<td><i class="fa fa-check"></i></td>
+					<td><i class="fa fa-remove"></i></td>
+				</tr>
+			</table>
+		</div>
       </section>
       <!-- Testimonial section -->
       <section class="testimonial">
