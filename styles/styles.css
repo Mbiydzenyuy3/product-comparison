@@ -266,7 +266,6 @@ td {
   .product {
     width: fit-content;
     height: 150px;
-    aspect-ratio: 1;
   }
 
   table {
