@@ -6,11 +6,15 @@ Product comparison page
 
 ### Primary Color
 
-- #FF6B6B
+-#00f
 
 ### Secondary Color
 
-- #4ECDC4
+-#800080
+
+### Accent Color
+
+-#101820
 
 ### Neutral Colors
 
@@ -43,7 +47,7 @@ The project consists of HTML and CSS files only:
 - Responsive design for various screen sizes
 - Interactive width the use of cta button
 - Contact form for customer inquiries
-- Social media facebook instagram linkedin medium
+- Social media Facebook Instagram linkedIn Medium
 
 ## Setup and Installation
 
@@ -52,7 +56,8 @@ The project consists of HTML and CSS files only:
 
 ## Description
 
-We will be buliding responsive web page product comparison site.  
+We will be buliding responsive web page product comparison site.
 
 ## Contributing
+
 Improvements are welcomed. Fork the repository and create a pull request with your changes.Have a nice time using our site

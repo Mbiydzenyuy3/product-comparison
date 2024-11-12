@@ -1,5 +1,357 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 24px;
+  word-spacing: 2px;
+}
+
+.img-item {
+  width: 24px;
+  height: 24px;
+}
+
+.logo-brand {
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  line-height: 2rem;
+  font-style: normal;
+}
+
+h2 {
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* header here */
+.main-header {
+  background-color: #101820;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+
+.menu-bar {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.nav-bar {
+  display: none;
+}
+
+.burger-menu {
+  width: 24px;
+  height: 24px;
+}
+
+/* testimonial styling */
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: #f0f8ff;
+}
+
+.testimonial-item {
+  background-color: #fff;
+  box-shadow: 0 0 4px -2px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.iphone-pro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+section {
+  width: 99%;
+  margin: 1rem auto;
+  padding: 1em 0;
+  box-shadow: 0 0 4px -2px;
+}
+
+span {
+  font-size: 1rem;
+}
+
+/* pros and cons testimonial */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.product {
+  width: fit-content;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+}
+
+th,
+td {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 16px;
+}
+
+.testimonials {
+  border: 1px solid #101820;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  background-color: aliceblue;
+  box-shadow: 0 0 4px -2px;
+}
+
+.user {
+  width: 48px;
+  aspect-ratio: 1;
+  border-radius: 99px;
+}
+
+#logo-wrap {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer stylings */
+#footer {
+  background-color: #0b0213;
+  display: block;
+  color: #fff;
+  padding: 1em 0;
+}
+
+.content-item {
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: left;
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.pinterest,
+.linkedin {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.footer-span {
+  font-weight: 700;
+  color: #fff;
+}
+
+#logo-black {
+  color: #fff;
+}
+
+.copywrite {
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .product,
+  th,
+  picture {
+    width: 100%;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  #logo-wrap {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: min(1100px, 100%);
+    margin: 0 auto;
+  }
+
+  .product {
+    width: fit-content;
+    height: 150px;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+
+  tr {
+    display: flex;
+    flex-direction: row;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 16px;
+  }
+
+  th:first-child,
+  td:first-child {
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .menu-bar {
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1rem 0;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .social-media-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+  }
+
+  .testimonial {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 8px;
   padding: 0;
   margin: 0;
 }
