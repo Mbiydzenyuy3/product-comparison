@@ -154,6 +154,16 @@ td {
   border-radius: 99px;
 }
 
+#logo-wrap {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* footer stylings */
 #footer {
   background-color: #0b0213;
@@ -221,5 +231,14 @@ td {
 
   .content {
     padding: 1rem;
+  }
+
+  #logo-wrap {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
