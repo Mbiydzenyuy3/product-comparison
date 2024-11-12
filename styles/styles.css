@@ -218,4 +218,8 @@ td {
   picture {
     width: 100%;
   }
+
+  .content {
+    padding: 1rem;
+  }
 }
