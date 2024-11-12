@@ -16,7 +16,7 @@
   align-items: flex-start;
   margin-bottom: 2rem;
   box-shadow: 0 0 4px -2px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .mark {
@@ -67,7 +67,7 @@ button {
   background-color: #3c39e9;
 }
 
-@media  screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .header-two {
     display: grid;
     grid-template-columns: 40% 60%;
