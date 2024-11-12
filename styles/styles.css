@@ -12,6 +12,11 @@ body {
   word-spacing: 2px;
 }
 
+.img-item {
+  width: 24px;
+  height: 24px;
+}
+
 h1,
 h2,
 h3,
