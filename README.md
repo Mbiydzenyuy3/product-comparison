@@ -47,7 +47,7 @@ The project consists of HTML and CSS files only:
 - Responsive design for various screen sizes
 - Interactive width the use of cta button
 - Contact form for customer inquiries
-- Social media facebook instagram linkedin medium
+- Social media Facebook Instagram linkedIn Medium
 
 ## Setup and Installation
 
