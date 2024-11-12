@@ -232,6 +232,70 @@ td {
   color: #fff;
 }
 
+.text {
+  padding: 8px;
+}
+
+.phone-image {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 4px -2px;
+  background-color: #fff;
+}
+
+.mark {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.phone-sam,
+.phone-item,
+.main {
+  box-shadow: 0 0 4px -2px;
+  background-color: white;
+}
+
+.main {
+  box-shadow: 0 0 4px -2px;
+  padding: 1rem 0;
+}
+
+.ipad,
+.smart {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  border: none;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  background-color: #3c39e9;
+}
+
+/* media queries */
 @media screen and (min-width: 768px) {
   .container {
     width: 100%;
@@ -254,6 +318,66 @@ td {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .header-two {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .phone-image {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .disc {
+    margin-top: 1rem;
+    width: 50%;
+  }
+
+  .mark {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    background-color: white;
+  }
+
+  .message {
+    gap: 0.5rem;
+    align-items: flex-start;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: white;
+  }
+
+  .ipad {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+  }
+
+  .smart {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+  }
+
+  body {
+    background-color: #f5f6f8;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
 
