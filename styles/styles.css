@@ -259,7 +259,7 @@ td {
 
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: min(1100px, 100%);
+    width: min(1100px, 100%);
     margin: 0 auto;
   }
 
