@@ -46,6 +46,10 @@ svg {
   height: 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* header here */
 .main-header {
   background-color: #101820;
@@ -69,7 +73,7 @@ svg {
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  padding: 1rem 0;
+  padding: 1rem 0.3rem;
 }
 
 .nav-bar {
@@ -83,6 +87,10 @@ svg {
 
 /* testimonial styling */
 .testimonial {
+  width: 100%;
+}
+
+.testimonial-block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -101,6 +109,7 @@ svg {
   align-items: flex-start;
   justify-content: space-between;
   text-align: left;
+  padding: 0.5rem;
 }
 
 .iphone-pro {
@@ -233,6 +242,12 @@ td {
 
 .text {
   padding: 8px;
+  gap: 0.6rem;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .phone-image {
@@ -240,7 +255,7 @@ td {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 2rem;
   background-color: #fff;
 }
@@ -249,7 +264,8 @@ td {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  font-weight: 700;
 }
 
 .message {
@@ -257,8 +273,16 @@ td {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1rem 0;
+  align-items: flex-start;
+  padding: 1rem 0.5rem;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
 }
 
 .phone-sam,
@@ -305,7 +329,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 50%;
+  padding: 0.5rem;
 }
 
 #main {
@@ -392,6 +416,7 @@ button {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    padding: 0.5rem;
     width: 98.5%;
     margin: auto;
   }
@@ -406,6 +431,10 @@ button {
     gap: 2rem;
     padding: 1rem 0.5rem;
     border: none;
+  }
+
+  .offers {
+    width: 50%;
   }
 }
 
